@@ -1,3 +1,4 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
 PCB,1,JLCPCB,$7.98,$7.98,https://jlcpcb.com/
+pi pico,1,Mouser,$4.00,$4.00,https://pt.mouser.com/en/ProductDetail/Raspberry-Pi/SC0915?qs=T%252BzbugeAwjgnLi4azxXVFA%3D%3D
 Estimated total shipping,1,,,$0.00,
