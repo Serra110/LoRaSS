@@ -1,40 +1,35 @@
-# LoRaSS
+**LoRaSS**
 
 LoRaSS is a custom communication device built around LoRa technology, allowing two (or more) devices to exchange short messages over radio. It features five buttons: four for entering messages using a custom input system and one dedicated button to save or send the composed message, allowing an entire message to be transmitted in a single operation. The device also includes a display to preview outgoing messages and read received ones, as well as an LED and a buzzer to provide visual and audio feedback when messages are received (like a morse code machine)
 
-## Features
+**Features**
 
 - **LoRa Communication:** Exchange messages wirelessly using LoRa radio technology.
 - **Message Input:** Four buttons are used to enter the desired characters.
 - **OLED Display:** Preview messages before sending and read incoming messages.
 - **Misc:** A LED and a buzzer indicate when a message is received.
 
-## Hardware Design
+**Hardware Design**
 
-The device is powered by a Raspberry Pi Pico ( as mentioned in the other repos, its my fav board) and uses a LoRa radio module for wireless communication. The PCB integrates the display, buttons, buzzer, LED and antenna circuitry.
+The device is powered by a Raspberry Pi Pico (as mentioned in the other repos, it is my favorite board) and uses a LoRa radio module for wireless communication. The PCB integrates the display, buttons, buzzer, LED and antenna circuitry.
 
-
-### 3D Model
+**3D Model**
 
 A 3D representation of the project designed in KiCad.
 
+**Schematic**
 
-
-### Schematic
-
-
-
-## Controls
+**Controls**
 
 - **Buttons 1–4:** Enter characters to compose a message.
-- **Button 5:**  send it to another device.
+- **Button 5:** Send it to another device.
 
-## Communication
+**Communication**
 
-## Code
+**Code**
 
-The firmware runs on the Raspberry Pi Pico and handles message input
+The firmware runs on the Raspberry Pi Pico and handles message input.
 
-## About the Project
+**About the Project**
 
-This project is my first time messing with antennas and It is also my first experience working with SMD components and designing an antenna section as part of a PCB.
+This project is my first time messing with antennas, and it is also my first experience working with SMD components and designing an antenna section as part of a PCB.
