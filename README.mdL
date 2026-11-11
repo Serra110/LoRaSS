@@ -1,4 +1,3 @@
-
 # LoRaSS
 
 LoRaSS is a custom communication device built around LoRa technology, allowing two (or more) devices to exchange short messages over radio. It features five buttons: four for entering messages using a custom input system and one dedicated button to save or send the composed message, allowing an entire message to be transmitted in a single operation. The device also includes a display to preview outgoing messages and read received ones, as well as an LED and a buzzer to provide visual and audio feedback when messages are received (like a morse code machine)
